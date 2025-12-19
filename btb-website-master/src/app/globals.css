@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.font-inter {
+  font-family: "Inter", sans-serif !important;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+/* * {
+    font-family: "Articulat", sans-serif;
+} */
+.btn-border-bg{
+    background: linear-gradient(45deg,#204FFF 0% , #44C7F4 100%);
+    /* background-color: white; */
+}
+
+.bg-gradient-custom{
+    background: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%);
+    background-clip: text;
+}
+
+.ant-drawer-body{
+    padding: 0px !important;
+}
+
+.AccordionChevron {
+    transition: transform 200ms ease-in;
+  }
+
+  .AccordionTrigger[data-state='open'] > .AccordionChevron {
+    transform: rotate(180deg);
+  }
+
+  .AccordionContent[data-state='open'] {
+    animation: slideDown 300ms cubic-bezier(0.87, 0, 0.13, 1);
+  }
+  .AccordionContent[data-state='closed'] {
+    animation: slideUp 300ms cubic-bezier(0.87, 0, 0.13, 1);
+  }
+
+  @keyframes slideDown {
+    from {
+      height: 0;
+    }
+    to {
+      height: var(--radix-accordion-content-height);
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      height: var(--radix-accordion-content-height);
+    }
+    to {
+      height: 0;
+    }
+  }
+
+  .ant-carousel .slick-prev{
+    left: -60px;
+    position: absolute;
+  }
+  .ant-carousel .slick-next{
+    position: absolute;
+    right: -30px;
+  }
+  .ant-carousel .slick-prev::after{
+    border-inline-width: 0 0;
+    border-block-width: 0 0;
+  }
+  .ant-carousel .slick-next::after{
+    border-inline-width: 0 0;
+    border-block-width: 0 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .ant-carousel .slick-prev{
+      display: none !important;
+    }
+    .ant-carousel .slick-next{
+      display: none !important;
+    }
+    
+  }

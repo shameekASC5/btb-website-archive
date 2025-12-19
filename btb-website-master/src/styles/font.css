@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@font-face {
+  font-family: 'Articulat';
+  font-style: normal;
+  font-weight: 50;
+  src: url('/fonts/Articulat_CF_Thin.otf') format('otf');
+}
+@font-face {
+  font-family: 'Articulat';
+  font-style: normal;
+  font-weight: 100;
+  src: url('/fonts/Articulat_CF_Extra_Light.otf') format('otf');
+}
+@font-face {
+  font-family: 'Articulat';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/fonts/Articulat_CF_Light.otf') format('otf');
+}
+@font-face {
+  font-family: 'Articulat';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/Articulat_CF_Normal.otf') format('otf');
+}
+@font-face {
+  font-family: 'Articulat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Articulat_CF_Regular.otf') format('otf');
+}
+@font-face {
+  font-family: 'Articulat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/fonts/Articulat_CF_Medium.otf') format('otf');
+}
+@font-face {
+  font-family: 'Articulat';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/fonts/Articulat_CF_Demi_Bold.otf') format('otf');
+}
+@font-face {
+  font-family: 'Articulat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/Articulat_CF_BOLD.otf') format('otf');
+}
+@font-face {
+  font-family: 'Articulat';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/fonts/Articulat_CF_Extra_Bold.otf') format('otf');
+}
+@font-face {
+  font-family: 'Articulat';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/fonts/Articulat_CF_Heavy.otf') format('otf');
+}
+
+
+
+/* @font-face {
+    font-family: 'Articulat';
+    font-style: normal;
+    font-weight: 50;
+    src: url('/fonts/main-thin.otf') format('otf');
+  }
+@font-face {
+    font-family: 'Articulat';
+    font-style: normal;
+    font-weight: 100;
+    src: url('/fonts/main-extra-light.otf') format('otf');
+  }
+@font-face {
+    font-family: 'Articulat';
+    font-style: normal;
+    font-weight: 200;
+    src: url('/fonts/main-light.otf') format('otf');
+  }
+@font-face {
+    font-family: 'Articulat';
+    font-style: normal;
+    font-weight: 300;
+    src: url('/fonts/main-normal.otf') format('otf');
+  }
+@font-face {
+    font-family: 'Articulat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/main-regular.otf') format('otf');
+  }
+@font-face {
+    font-family: 'Articulat';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/fonts/main-medium.otf') format('otf');
+  }
+@font-face {
+    font-family: 'Articulat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/fonts/main-semibold.otf') format('otf');
+  }
+@font-face {
+    font-family: 'Articulat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/main-bold.otf') format('otf');
+  }
+@font-face {
+    font-family: 'Articulat';
+    font-style: normal;
+    font-weight: 800;
+    src: url('/fonts/main-extrabold.otf') format('otf');
+  }
+@font-face {
+    font-family: 'Articulat';
+    font-style: normal;
+    font-weight: 900;
+    src: url('/fonts/main-heavy.otf') format('otf');
+  } */
+
+
+  .font-manrope{
+    font-family: "Manrope", sans-serif !important;
+  }

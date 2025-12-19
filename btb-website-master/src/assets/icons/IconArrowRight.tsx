@@ -1,0 +1,19 @@
+import React from 'react'
+
+type Props = {}
+
+const IconArrowRight = (props: Props) => {
+  return (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <mask id="mask0_817_1049" style={{maskType:"alpha"}} maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+    <rect width="24" height="24" fill="#D9D9D9"/>
+    </mask>
+    <g mask="url(#mask0_817_1049)">
+    <path d="M16.6269 12.75H4.5V11.25H16.6269L10.9308 5.55383L12 4.5L19.5 12L12 19.5L10.9308 18.4461L16.6269 12.75Z" fill="currentColor"/>
+    </g>
+    </svg>
+    
+  )
+}
+
+export default IconArrowRight
