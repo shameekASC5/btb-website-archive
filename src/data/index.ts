@@ -593,7 +593,7 @@ export const OUR_WORK = {
             WEBSITE:"https://jonsalintel.com",
             APP_LINK: "",
             SHOWEXPANDED:false,
-            YEAR: "2022",
+            YEAR: "2023",
             SERVICES: [
                 "AI App",
                 "Web App",
