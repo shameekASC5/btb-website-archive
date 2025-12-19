@@ -344,7 +344,7 @@ export const OUR_WORK = {
             CLIENT: "RapidMedicare",
             YEAR: "2023",
             SHOWEXPANDED:false,
-            WEBSITE:"https://rapidmedicare.com",
+            WEBSITE:"https://www.rapidmed.care/",
             APP_LINK: "",
             SERVICES: [
                 "Fundraising",
@@ -628,7 +628,7 @@ export const OUR_WORK = {
             TITLE: "Timing",
             DESCRIPTION: "Timing is an all in one networking solution for college students and young adults to take charge of their network, making it their net worth in the journey for early career advancement.",
             CLIENT: "Timing",
-            WEBSITE:"https://timingapp.online/",
+            WEBSITE:"https://gettiming.com/",
             APP_LINK: "",
             SHOWEXPANDED:false,
             YEAR: "2023",
